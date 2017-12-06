@@ -13,6 +13,9 @@
 		2CB0B1741FD4F50700027E23 /* drones.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0B16E1FD4F50700027E23 /* drones.png */; };
 		2CB0B1751FD4F50700027E23 /* impresion3d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0B16F1FD4F50700027E23 /* impresion3d.jpg */; };
 		2CB0B1761FD4F50700027E23 /* IoT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0B1701FD4F50700027E23 /* IoT.jpg */; };
+		3B96FC4D1FD658F30035FCF8 /* participantsCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96FC4B1FD658F30035FCF8 /* participantsCellComponent.m */; };
+		3B96FC4E1FD658F30035FCF8 /* participantsCellComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B96FC4C1FD658F30035FCF8 /* participantsCellComponent.xib */; };
+		3B96FC541FD65F9A0035FCF8 /* ParticipantsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96FC531FD65F9A0035FCF8 /* ParticipantsDetails.m */; };
 		7EA477301FD1229200B9005D /* ComponentsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4772F1FD1229200B9005D /* ComponentsDetails.m */; };
 		D15DF4921FCF9DE600AA9E37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D15DF4911FCF9DE600AA9E37 /* AppDelegate.m */; };
 		D15DF4951FCF9DE600AA9E37 /* Components.m in Sources */ = {isa = PBXBuildFile; fileRef = D15DF4941FCF9DE600AA9E37 /* Components.m */; };
@@ -36,6 +39,11 @@
 		2CB0B16E1FD4F50700027E23 /* drones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drones.png; sourceTree = "<group>"; };
 		2CB0B16F1FD4F50700027E23 /* impresion3d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impresion3d.jpg; sourceTree = "<group>"; };
 		2CB0B1701FD4F50700027E23 /* IoT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IoT.jpg; sourceTree = "<group>"; };
+		3B96FC4A1FD658F30035FCF8 /* participantsCellComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = participantsCellComponent.h; sourceTree = "<group>"; };
+		3B96FC4B1FD658F30035FCF8 /* participantsCellComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = participantsCellComponent.m; sourceTree = "<group>"; };
+		3B96FC4C1FD658F30035FCF8 /* participantsCellComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = participantsCellComponent.xib; sourceTree = "<group>"; };
+		3B96FC521FD65F9A0035FCF8 /* ParticipantsDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticipantsDetails.h; sourceTree = "<group>"; };
+		3B96FC531FD65F9A0035FCF8 /* ParticipantsDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticipantsDetails.m; sourceTree = "<group>"; };
 		7EA4772E1FD1229200B9005D /* ComponentsDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentsDetails.h; sourceTree = "<group>"; };
 		7EA4772F1FD1229200B9005D /* ComponentsDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentsDetails.m; sourceTree = "<group>"; };
 		D15DF48D1FCF9DE600AA9E37 /* TD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +126,8 @@
 				D15DF4AF1FCFA1B900AA9E37 /* Funding.m */,
 				D15DF4B11FCFA1D000AA9E37 /* Register.h */,
 				D15DF4B21FCFA1D000AA9E37 /* Register.m */,
+				3B96FC521FD65F9A0035FCF8 /* ParticipantsDetails.h */,
+				3B96FC531FD65F9A0035FCF8 /* ParticipantsDetails.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,6 +147,9 @@
 				D15DF4B51FCFA46900AA9E37 /* cellComponents.h */,
 				D15DF4B61FCFA46900AA9E37 /* cellComponents.m */,
 				D15DF4B71FCFA46900AA9E37 /* cellComponents.xib */,
+				3B96FC4A1FD658F30035FCF8 /* participantsCellComponent.h */,
+				3B96FC4B1FD658F30035FCF8 /* participantsCellComponent.m */,
+				3B96FC4C1FD658F30035FCF8 /* participantsCellComponent.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -214,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15DF4A01FCF9DE600AA9E37 /* LaunchScreen.storyboard in Resources */,
+				3B96FC4E1FD658F30035FCF8 /* participantsCellComponent.xib in Resources */,
 				2CB0B1751FD4F50700027E23 /* impresion3d.jpg in Resources */,
 				D17074FD1FCFA61C0072459A /* Artificial-Intelligence.jpg in Resources */,
 				2CB0B1721FD4F50700027E23 /* vehiculosautonomos.jpg in Resources */,
@@ -237,7 +251,9 @@
 				D15DF4AD1FCFA18F00AA9E37 /* Participants.m in Sources */,
 				D15DF4B81FCFA46900AA9E37 /* cellComponents.m in Sources */,
 				D15DF4951FCF9DE600AA9E37 /* Components.m in Sources */,
+				3B96FC4D1FD658F30035FCF8 /* participantsCellComponent.m in Sources */,
 				7EA477301FD1229200B9005D /* ComponentsDetails.m in Sources */,
+				3B96FC541FD65F9A0035FCF8 /* ParticipantsDetails.m in Sources */,
 				D15DF4921FCF9DE600AA9E37 /* AppDelegate.m in Sources */,
 				D15DF4B01FCFA1B900AA9E37 /* Funding.m in Sources */,
 				D15DF4A31FCF9DE600AA9E37 /* main.m in Sources */,

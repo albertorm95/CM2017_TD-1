@@ -10,4 +10,22 @@
 
 @interface Participants : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *participantTableView;
+
 @end
+
+@interface ParticipantsCellComponent : NSObject
+
+@property (weak, nonatomic) NSString *participantName;
+@property (weak, nonatomic) NSString *participantDescription;
+@property (weak, nonatomic) NSString *participantColor;
+@property (weak, nonatomic) NSString *participantURL;
+@property (weak, nonatomic) NSString *imgURL;
+
+@end
+
+
+
+
+
+
