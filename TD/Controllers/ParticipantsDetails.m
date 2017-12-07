@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self initController];
+    [self setName:(NSString *)_nombre setImg:(NSString *)_imagen setURL:(NSString *)_url setDescripcion:(NSString *)_descripcion];
     
     [self.navigationController setNavigationBarHidden:YES];
 }
@@ -30,12 +30,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)initController {
-    NSLog(@"Init with  %@", participantsCellComponent.participantName);
-    //_imageMain.image = participantsCellComponent.imgURL;
-    //_lblName.text = participantsCellComponent.participantName;
-    //_textViewDetails.text = participantsCellComponent.participantDescription;
+- (void)setName:(NSString *)nombre setImg:(NSString *)imagen setURL:(NSString *)url setDescripcion:(NSString *)descripcion
+{
+    //_segZapModelo = modelo;
+    self.nameDetails.text = [NSString stringWithFormat:@"Modelo %@", nombre];
+    self.decriptionDetails.text = [NSString stringWithFormat:@"Modelo %@", descripcion];
+    self.imgDetails.image = [UIImage imageNamed:imagen];
+    //self.decriptionDetails.text = [NSString stringWithFormat:@"Modelo %@", modelo];
 }
+
+
 - (IBAction)backBtn:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }

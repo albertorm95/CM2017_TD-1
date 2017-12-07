@@ -6,9 +6,9 @@
 //  Copyright © 2017 UAG. All rights reserved.
 //
 
-#import "cellComponents.h"
+#import "UIKit/UIKit.h"
 
-@interface participantsCellComponent : cellComponents
+@interface participantsCellComponent : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *participantName;
 @property (weak, nonatomic) IBOutlet UIView *backgroundColor;
 

@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *nameDetails;
 @property (weak, nonatomic) IBOutlet UITextView *decriptionDetails;
 
+@property NSString *imagen;
+@property NSString *nombre;
+@property NSString *url;
+@property NSString *descripcion;
 
 @property (weak, nonatomic) ParticipantsCellComponent *participantsCellComponent;
 
