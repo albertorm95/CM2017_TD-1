@@ -125,6 +125,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qPi-S9-xnI">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.77726351500000002" green="0.78495919339999998" blue="0.78495919339999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="JJg-Sz-ze9" kind="relationship" relationship="rootViewController" id="juM-cd-SXM"/>
