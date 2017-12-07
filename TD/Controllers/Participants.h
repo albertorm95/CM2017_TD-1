@@ -20,7 +20,7 @@
 @property (weak, nonatomic) NSString *participantDescription;
 @property (weak, nonatomic) NSString *participantColor;
 @property (weak, nonatomic) NSString *participantURL;
-@property (weak, nonatomic) NSString *imgURL;
+@property (weak, nonatomic) UIImage *image;
 
 @end
 

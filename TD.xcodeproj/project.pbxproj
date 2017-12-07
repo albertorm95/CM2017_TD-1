@@ -16,6 +16,89 @@
 		3B96FC4D1FD658F30035FCF8 /* participantsCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96FC4B1FD658F30035FCF8 /* participantsCellComponent.m */; };
 		3B96FC4E1FD658F30035FCF8 /* participantsCellComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B96FC4C1FD658F30035FCF8 /* participantsCellComponent.xib */; };
 		3B96FC541FD65F9A0035FCF8 /* ParticipantsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96FC531FD65F9A0035FCF8 /* ParticipantsDetails.m */; };
+		3BCEB9A61FD8C6F500A7D858 /* Modus_Link.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9521FD8C6EC00A7D858 /* Modus_Link.png */; };
+		3BCEB9A71FD8C6F500A7D858 /* SOFTTEK.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9531FD8C6ED00A7D858 /* SOFTTEK.png */; };
+		3BCEB9A81FD8C6F500A7D858 /* Svitla.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9541FD8C6ED00A7D858 /* Svitla.png */; };
+		3BCEB9A91FD8C6F500A7D858 /* LuxSoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9551FD8C6ED00A7D858 /* LuxSoft.png */; };
+		3BCEB9AA1FD8C6F500A7D858 /* Telefonica.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9561FD8C6ED00A7D858 /* Telefonica.png */; };
+		3BCEB9AB1FD8C6F500A7D858 /* ORACLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9571FD8C6ED00A7D858 /* ORACLE.png */; };
+		3BCEB9AC1FD8C6F500A7D858 /* Telcel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9581FD8C6ED00A7D858 /* Telcel.png */; };
+		3BCEB9AD1FD8C6F500A7D858 /* Persistent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9591FD8C6ED00A7D858 /* Persistent.png */; };
+		3BCEB9AF1FD8C6F500A7D858 /* DELL.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB95B1FD8C6ED00A7D858 /* DELL.png */; };
+		3BCEB9B01FD8C6F500A7D858 /* BBVA_Bancomer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB95C1FD8C6ED00A7D858 /* BBVA_Bancomer.png */; };
+		3BCEB9B11FD8C6F500A7D858 /* cucea.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB95D1FD8C6ED00A7D858 /* cucea.png */; };
+		3BCEB9B21FD8C6F500A7D858 /* COGNIZANT.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB95E1FD8C6EE00A7D858 /* COGNIZANT.png */; };
+		3BCEB9B31FD8C6F500A7D858 /* Ayuntamiento.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB95F1FD8C6EE00A7D858 /* Ayuntamiento.png */; };
+		3BCEB9B41FD8C6F500A7D858 /* Intel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9601FD8C6EE00A7D858 /* Intel.png */; };
+		3BCEB9B51FD8C6F500A7D858 /* IBM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9611FD8C6EE00A7D858 /* IBM.png */; };
+		3BCEB9B61FD8C6F500A7D858 /* DELOITTE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9621FD8C6EE00A7D858 /* DELOITTE.png */; };
+		3BCEB9B71FD8C6F500A7D858 /* Siemens.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9631FD8C6EE00A7D858 /* Siemens.png */; };
+		3BCEB9B81FD8C6F500A7D858 /* ConsuladoCND.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9641FD8C6EE00A7D858 /* ConsuladoCND.png */; };
+		3BCEB9B91FD8C6F500A7D858 /* NXP.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9651FD8C6EE00A7D858 /* NXP.png */; };
+		3BCEB9BA1FD8C6F500A7D858 /* IEEE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9661FD8C6EE00A7D858 /* IEEE.png */; };
+		3BCEB9BB1FD8C6F500A7D858 /* ITESO.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9671FD8C6EE00A7D858 /* ITESO.png */; };
+		3BCEB9BC1FD8C6F500A7D858 /* Interlatin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9681FD8C6EE00A7D858 /* Interlatin.png */; };
+		3BCEB9BD1FD8C6F500A7D858 /* Meetroopers.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9691FD8C6EE00A7D858 /* Meetroopers.png */; };
+		3BCEB9BE1FD8C6F500A7D858 /* UMG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB96A1FD8C6EF00A7D858 /* UMG.jpg */; };
+		3BCEB9BF1FD8C6F500A7D858 /* HPE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB96B1FD8C6EF00A7D858 /* HPE.png */; };
+		3BCEB9C01FD8C6F500A7D858 /* AMDOCS.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB96C1FD8C6EF00A7D858 /* AMDOCS.png */; };
+		3BCEB9C11FD8C6F500A7D858 /* ConsuladoUSA.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB96D1FD8C6EF00A7D858 /* ConsuladoUSA.png */; };
+		3BCEB9C21FD8C6F500A7D858 /* CUCEI.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB96E1FD8C6EF00A7D858 /* CUCEI.png */; };
+		3BCEB9C31FD8C6F500A7D858 /* Egutz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB96F1FD8C6EF00A7D858 /* Egutz.jpg */; };
+		3BCEB9C41FD8C6F500A7D858 /* OpenDataSoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9701FD8C6EF00A7D858 /* OpenDataSoft.png */; };
+		3BCEB9C51FD8C6F500A7D858 /* STMicro.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9711FD8C6EF00A7D858 /* STMicro.png */; };
+		3BCEB9C61FD8C6F500A7D858 /* Jabil.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9721FD8C6EF00A7D858 /* Jabil.png */; };
+		3BCEB9C71FD8C6F500A7D858 /* Flex.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9731FD8C6EF00A7D858 /* Flex.png */; };
+		3BCEB9C81FD8C6F500A7D858 /* Hackers and Founders.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9741FD8C6F000A7D858 /* Hackers and Founders.png */; };
+		3BCEB9C91FD8C6F500A7D858 /* Megacable.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9751FD8C6F000A7D858 /* Megacable.png */; };
+		3BCEB9CA1FD8C6F500A7D858 /* EVOLUTEL.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9761FD8C6F000A7D858 /* EVOLUTEL.png */; };
+		3BCEB9CB1FD8C6F500A7D858 /* startip.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9771FD8C6F000A7D858 /* startip.png */; };
+		3BCEB9CC1FD8C6F500A7D858 /* IDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9781FD8C6F000A7D858 /* IDC.png */; };
+		3BCEB9CD1FD8C6F500A7D858 /* CANIETI.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9791FD8C6F000A7D858 /* CANIETI.png */; };
+		3BCEB9CE1FD8C6F500A7D858 /* ccd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB97A1FD8C6F000A7D858 /* ccd.png */; };
+		3BCEB9CF1FD8C6F500A7D858 /* Citelum.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB97B1FD8C6F000A7D858 /* Citelum.gif */; };
+		3BCEB9D01FD8C6F500A7D858 /* HCL.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB97C1FD8C6F000A7D858 /* HCL.png */; };
+		3BCEB9D11FD8C6F500A7D858 /* ITESM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB97D1FD8C6F000A7D858 /* ITESM.png */; };
+		3BCEB9D21FD8C6F500A7D858 /* JALTEC.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB97E1FD8C6F100A7D858 /* JALTEC.png */; };
+		3BCEB9D31FD8C6F500A7D858 /* Telmex.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB97F1FD8C6F100A7D858 /* Telmex.png */; };
+		3BCEB9D41FD8C6F500A7D858 /* Ooyala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9801FD8C6F100A7D858 /* Ooyala.jpg */; };
+		3BCEB9D51FD8C6F500A7D858 /* GARTNER.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9811FD8C6F100A7D858 /* GARTNER.png */; };
+		3BCEB9D61FD8C6F500A7D858 /* SICYT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9821FD8C6F100A7D858 /* SICYT.jpg */; };
+		3BCEB9D71FD8C6F500A7D858 /* CIDE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9831FD8C6F100A7D858 /* CIDE.png */; };
+		3BCEB9D81FD8C6F500A7D858 /* BOSCH.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9841FD8C6F100A7D858 /* BOSCH.png */; };
+		3BCEB9D91FD8C6F500A7D858 /* TEC Monte.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9851FD8C6F100A7D858 /* TEC Monte.png */; };
+		3BCEB9DA1FD8C6F500A7D858 /* CISCO.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9861FD8C6F100A7D858 /* CISCO.png */; };
+		3BCEB9DB1FD8C6F500A7D858 /* InComSpace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9871FD8C6F200A7D858 /* InComSpace.jpg */; };
+		3BCEB9DC1FD8C6F500A7D858 /* Sanmina.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9881FD8C6F200A7D858 /* Sanmina.png */; };
+		3BCEB9DD1FD8C6F500A7D858 /* ACCENTURE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9891FD8C6F200A7D858 /* ACCENTURE.png */; };
+		3BCEB9DE1FD8C6F500A7D858 /* IOTNET.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB98A1FD8C6F200A7D858 /* IOTNET.png */; };
+		3BCEB9DF1FD8C6F500A7D858 /* UP.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB98B1FD8C6F200A7D858 /* UP.png */; };
+		3BCEB9E01FD8C6F500A7D858 /* Volteo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB98C1FD8C6F200A7D858 /* Volteo.jpg */; };
+		3BCEB9E11FD8C6F500A7D858 /* Engie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB98D1FD8C6F200A7D858 /* Engie.png */; };
+		3BCEB9E21FD8C6F500A7D858 /* THALES.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB98E1FD8C6F200A7D858 /* THALES.png */; };
+		3BCEB9E31FD8C6F500A7D858 /* City Banamex.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB98F1FD8C6F200A7D858 /* City Banamex.png */; };
+		3BCEB9E41FD8C6F500A7D858 /* IJALTI.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9901FD8C6F300A7D858 /* IJALTI.png */; };
+		3BCEB9E51FD8C6F500A7D858 /* Santander.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9911FD8C6F300A7D858 /* Santander.png */; };
+		3BCEB9E61FD8C6F500A7D858 /* CIIOT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9921FD8C6F300A7D858 /* CIIOT.jpg */; };
+		3BCEB9E71FD8C6F500A7D858 /* UAG.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9931FD8C6F300A7D858 /* UAG.png */; };
+		3BCEB9E81FD8C6F500A7D858 /* CONTINENTAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9941FD8C6F300A7D858 /* CONTINENTAL.png */; };
+		3BCEB9E91FD8C6F500A7D858 /* AMEXCAP.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9951FD8C6F300A7D858 /* AMEXCAP.png */; };
+		3BCEB9EA1FD8C6F500A7D858 /* Videns.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9961FD8C6F300A7D858 /* Videns.png */; };
+		3BCEB9EB1FD8C6F500A7D858 /* DXC.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9971FD8C6F300A7D858 /* DXC.png */; };
+		3BCEB9EC1FD8C6F500A7D858 /* Schneider_Electric.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9981FD8C6F300A7D858 /* Schneider_Electric.png */; };
+		3BCEB9ED1FD8C6F500A7D858 /* WIZELINE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9991FD8C6F400A7D858 /* WIZELINE.png */; };
+		3BCEB9EE1FD8C6F500A7D858 /* Microsoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB99A1FD8C6F400A7D858 /* Microsoft.png */; };
+		3BCEB9EF1FD8C6F500A7D858 /* Alestra.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB99B1FD8C6F400A7D858 /* Alestra.png */; };
+		3BCEB9F01FD8C6F500A7D858 /* UNIVA.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB99C1FD8C6F400A7D858 /* UNIVA.png */; };
+		3BCEB9F11FD8C6F500A7D858 /* Alstom.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB99D1FD8C6F400A7D858 /* Alstom.png */; };
+		3BCEB9F21FD8C6F500A7D858 /* Hemac.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB99E1FD8C6F400A7D858 /* Hemac.png */; };
+		3BCEB9F31FD8C6F500A7D858 /* Intkno.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB99F1FD8C6F400A7D858 /* Intkno.png */; };
+		3BCEB9F41FD8C6F500A7D858 /* InnoHub.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9A01FD8C6F400A7D858 /* InnoHub.png */; };
+		3BCEB9F51FD8C6F500A7D858 /* Infineon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9A11FD8C6F500A7D858 /* Infineon.png */; };
+		3BCEB9F61FD8C6F500A7D858 /* Dassault System.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9A21FD8C6F500A7D858 /* Dassault System.png */; };
+		3BCEB9F71FD8C6F500A7D858 /* GOPAC.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9A31FD8C6F500A7D858 /* GOPAC.png */; };
+		3BCEB9F81FD8C6F500A7D858 /* CINVESTAV.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9A41FD8C6F500A7D858 /* CINVESTAV.gif */; };
+		3BCEB9F91FD8C6F500A7D858 /* CUTonala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB9A51FD8C6F500A7D858 /* CUTonala.jpg */; };
 		7EA477301FD1229200B9005D /* ComponentsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4772F1FD1229200B9005D /* ComponentsDetails.m */; };
 		D15DF4921FCF9DE600AA9E37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D15DF4911FCF9DE600AA9E37 /* AppDelegate.m */; };
 		D15DF4951FCF9DE600AA9E37 /* Components.m in Sources */ = {isa = PBXBuildFile; fileRef = D15DF4941FCF9DE600AA9E37 /* Components.m */; };
@@ -44,6 +127,89 @@
 		3B96FC4C1FD658F30035FCF8 /* participantsCellComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = participantsCellComponent.xib; sourceTree = "<group>"; };
 		3B96FC521FD65F9A0035FCF8 /* ParticipantsDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticipantsDetails.h; sourceTree = "<group>"; };
 		3B96FC531FD65F9A0035FCF8 /* ParticipantsDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticipantsDetails.m; sourceTree = "<group>"; };
+		3BCEB9521FD8C6EC00A7D858 /* Modus_Link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Modus_Link.png; path = Logos/Modus_Link.png; sourceTree = "<group>"; };
+		3BCEB9531FD8C6ED00A7D858 /* SOFTTEK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SOFTTEK.png; path = Logos/SOFTTEK.png; sourceTree = "<group>"; };
+		3BCEB9541FD8C6ED00A7D858 /* Svitla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Svitla.png; path = Logos/Svitla.png; sourceTree = "<group>"; };
+		3BCEB9551FD8C6ED00A7D858 /* LuxSoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LuxSoft.png; path = Logos/LuxSoft.png; sourceTree = "<group>"; };
+		3BCEB9561FD8C6ED00A7D858 /* Telefonica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Telefonica.png; path = Logos/Telefonica.png; sourceTree = "<group>"; };
+		3BCEB9571FD8C6ED00A7D858 /* ORACLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ORACLE.png; path = Logos/ORACLE.png; sourceTree = "<group>"; };
+		3BCEB9581FD8C6ED00A7D858 /* Telcel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Telcel.png; path = Logos/Telcel.png; sourceTree = "<group>"; };
+		3BCEB9591FD8C6ED00A7D858 /* Persistent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Persistent.png; path = Logos/Persistent.png; sourceTree = "<group>"; };
+		3BCEB95B1FD8C6ED00A7D858 /* DELL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DELL.png; path = Logos/DELL.png; sourceTree = "<group>"; };
+		3BCEB95C1FD8C6ED00A7D858 /* BBVA_Bancomer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BBVA_Bancomer.png; path = Logos/BBVA_Bancomer.png; sourceTree = "<group>"; };
+		3BCEB95D1FD8C6ED00A7D858 /* cucea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cucea.png; path = Logos/cucea.png; sourceTree = "<group>"; };
+		3BCEB95E1FD8C6EE00A7D858 /* COGNIZANT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = COGNIZANT.png; path = Logos/COGNIZANT.png; sourceTree = "<group>"; };
+		3BCEB95F1FD8C6EE00A7D858 /* Ayuntamiento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ayuntamiento.png; path = Logos/Ayuntamiento.png; sourceTree = "<group>"; };
+		3BCEB9601FD8C6EE00A7D858 /* Intel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Intel.png; path = Logos/Intel.png; sourceTree = "<group>"; };
+		3BCEB9611FD8C6EE00A7D858 /* IBM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IBM.png; path = Logos/IBM.png; sourceTree = "<group>"; };
+		3BCEB9621FD8C6EE00A7D858 /* DELOITTE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DELOITTE.png; path = Logos/DELOITTE.png; sourceTree = "<group>"; };
+		3BCEB9631FD8C6EE00A7D858 /* Siemens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Siemens.png; path = Logos/Siemens.png; sourceTree = "<group>"; };
+		3BCEB9641FD8C6EE00A7D858 /* ConsuladoCND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ConsuladoCND.png; path = Logos/ConsuladoCND.png; sourceTree = "<group>"; };
+		3BCEB9651FD8C6EE00A7D858 /* NXP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NXP.png; path = Logos/NXP.png; sourceTree = "<group>"; };
+		3BCEB9661FD8C6EE00A7D858 /* IEEE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IEEE.png; path = Logos/IEEE.png; sourceTree = "<group>"; };
+		3BCEB9671FD8C6EE00A7D858 /* ITESO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ITESO.png; path = Logos/ITESO.png; sourceTree = "<group>"; };
+		3BCEB9681FD8C6EE00A7D858 /* Interlatin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Interlatin.png; path = Logos/Interlatin.png; sourceTree = "<group>"; };
+		3BCEB9691FD8C6EE00A7D858 /* Meetroopers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Meetroopers.png; path = Logos/Meetroopers.png; sourceTree = "<group>"; };
+		3BCEB96A1FD8C6EF00A7D858 /* UMG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UMG.jpg; path = Logos/UMG.jpg; sourceTree = "<group>"; };
+		3BCEB96B1FD8C6EF00A7D858 /* HPE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HPE.png; path = Logos/HPE.png; sourceTree = "<group>"; };
+		3BCEB96C1FD8C6EF00A7D858 /* AMDOCS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AMDOCS.png; path = Logos/AMDOCS.png; sourceTree = "<group>"; };
+		3BCEB96D1FD8C6EF00A7D858 /* ConsuladoUSA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ConsuladoUSA.png; path = Logos/ConsuladoUSA.png; sourceTree = "<group>"; };
+		3BCEB96E1FD8C6EF00A7D858 /* CUCEI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CUCEI.png; path = Logos/CUCEI.png; sourceTree = "<group>"; };
+		3BCEB96F1FD8C6EF00A7D858 /* Egutz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Egutz.jpg; path = Logos/Egutz.jpg; sourceTree = "<group>"; };
+		3BCEB9701FD8C6EF00A7D858 /* OpenDataSoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OpenDataSoft.png; path = Logos/OpenDataSoft.png; sourceTree = "<group>"; };
+		3BCEB9711FD8C6EF00A7D858 /* STMicro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = STMicro.png; path = Logos/STMicro.png; sourceTree = "<group>"; };
+		3BCEB9721FD8C6EF00A7D858 /* Jabil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Jabil.png; path = Logos/Jabil.png; sourceTree = "<group>"; };
+		3BCEB9731FD8C6EF00A7D858 /* Flex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flex.png; path = Logos/Flex.png; sourceTree = "<group>"; };
+		3BCEB9741FD8C6F000A7D858 /* Hackers and Founders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hackers and Founders.png"; path = "Logos/Hackers and Founders.png"; sourceTree = "<group>"; };
+		3BCEB9751FD8C6F000A7D858 /* Megacable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Megacable.png; path = Logos/Megacable.png; sourceTree = "<group>"; };
+		3BCEB9761FD8C6F000A7D858 /* EVOLUTEL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EVOLUTEL.png; path = Logos/EVOLUTEL.png; sourceTree = "<group>"; };
+		3BCEB9771FD8C6F000A7D858 /* startip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startip.png; path = Logos/startip.png; sourceTree = "<group>"; };
+		3BCEB9781FD8C6F000A7D858 /* IDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IDC.png; path = Logos/IDC.png; sourceTree = "<group>"; };
+		3BCEB9791FD8C6F000A7D858 /* CANIETI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CANIETI.png; path = Logos/CANIETI.png; sourceTree = "<group>"; };
+		3BCEB97A1FD8C6F000A7D858 /* ccd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ccd.png; path = Logos/ccd.png; sourceTree = "<group>"; };
+		3BCEB97B1FD8C6F000A7D858 /* Citelum.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Citelum.gif; path = Logos/Citelum.gif; sourceTree = "<group>"; };
+		3BCEB97C1FD8C6F000A7D858 /* HCL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HCL.png; path = Logos/HCL.png; sourceTree = "<group>"; };
+		3BCEB97D1FD8C6F000A7D858 /* ITESM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ITESM.png; path = Logos/ITESM.png; sourceTree = "<group>"; };
+		3BCEB97E1FD8C6F100A7D858 /* JALTEC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JALTEC.png; path = Logos/JALTEC.png; sourceTree = "<group>"; };
+		3BCEB97F1FD8C6F100A7D858 /* Telmex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Telmex.png; path = Logos/Telmex.png; sourceTree = "<group>"; };
+		3BCEB9801FD8C6F100A7D858 /* Ooyala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ooyala.jpg; path = Logos/Ooyala.jpg; sourceTree = "<group>"; };
+		3BCEB9811FD8C6F100A7D858 /* GARTNER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GARTNER.png; path = Logos/GARTNER.png; sourceTree = "<group>"; };
+		3BCEB9821FD8C6F100A7D858 /* SICYT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SICYT.jpg; path = Logos/SICYT.jpg; sourceTree = "<group>"; };
+		3BCEB9831FD8C6F100A7D858 /* CIDE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CIDE.png; path = Logos/CIDE.png; sourceTree = "<group>"; };
+		3BCEB9841FD8C6F100A7D858 /* BOSCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BOSCH.png; path = Logos/BOSCH.png; sourceTree = "<group>"; };
+		3BCEB9851FD8C6F100A7D858 /* TEC Monte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TEC Monte.png"; path = "Logos/TEC Monte.png"; sourceTree = "<group>"; };
+		3BCEB9861FD8C6F100A7D858 /* CISCO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CISCO.png; path = Logos/CISCO.png; sourceTree = "<group>"; };
+		3BCEB9871FD8C6F200A7D858 /* InComSpace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = InComSpace.jpg; path = Logos/InComSpace.jpg; sourceTree = "<group>"; };
+		3BCEB9881FD8C6F200A7D858 /* Sanmina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sanmina.png; path = Logos/Sanmina.png; sourceTree = "<group>"; };
+		3BCEB9891FD8C6F200A7D858 /* ACCENTURE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ACCENTURE.png; path = Logos/ACCENTURE.png; sourceTree = "<group>"; };
+		3BCEB98A1FD8C6F200A7D858 /* IOTNET.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IOTNET.png; path = Logos/IOTNET.png; sourceTree = "<group>"; };
+		3BCEB98B1FD8C6F200A7D858 /* UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UP.png; path = Logos/UP.png; sourceTree = "<group>"; };
+		3BCEB98C1FD8C6F200A7D858 /* Volteo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Volteo.jpg; path = Logos/Volteo.jpg; sourceTree = "<group>"; };
+		3BCEB98D1FD8C6F200A7D858 /* Engie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Engie.png; path = Logos/Engie.png; sourceTree = "<group>"; };
+		3BCEB98E1FD8C6F200A7D858 /* THALES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = THALES.png; path = Logos/THALES.png; sourceTree = "<group>"; };
+		3BCEB98F1FD8C6F200A7D858 /* City Banamex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "City Banamex.png"; path = "Logos/City Banamex.png"; sourceTree = "<group>"; };
+		3BCEB9901FD8C6F300A7D858 /* IJALTI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IJALTI.png; path = Logos/IJALTI.png; sourceTree = "<group>"; };
+		3BCEB9911FD8C6F300A7D858 /* Santander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Santander.png; path = Logos/Santander.png; sourceTree = "<group>"; };
+		3BCEB9921FD8C6F300A7D858 /* CIIOT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CIIOT.jpg; path = Logos/CIIOT.jpg; sourceTree = "<group>"; };
+		3BCEB9931FD8C6F300A7D858 /* UAG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UAG.png; path = Logos/UAG.png; sourceTree = "<group>"; };
+		3BCEB9941FD8C6F300A7D858 /* CONTINENTAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CONTINENTAL.png; path = Logos/CONTINENTAL.png; sourceTree = "<group>"; };
+		3BCEB9951FD8C6F300A7D858 /* AMEXCAP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AMEXCAP.png; path = Logos/AMEXCAP.png; sourceTree = "<group>"; };
+		3BCEB9961FD8C6F300A7D858 /* Videns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Videns.png; path = Logos/Videns.png; sourceTree = "<group>"; };
+		3BCEB9971FD8C6F300A7D858 /* DXC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DXC.png; path = Logos/DXC.png; sourceTree = "<group>"; };
+		3BCEB9981FD8C6F300A7D858 /* Schneider_Electric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Schneider_Electric.png; path = Logos/Schneider_Electric.png; sourceTree = "<group>"; };
+		3BCEB9991FD8C6F400A7D858 /* WIZELINE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WIZELINE.png; path = Logos/WIZELINE.png; sourceTree = "<group>"; };
+		3BCEB99A1FD8C6F400A7D858 /* Microsoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Microsoft.png; path = Logos/Microsoft.png; sourceTree = "<group>"; };
+		3BCEB99B1FD8C6F400A7D858 /* Alestra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alestra.png; path = Logos/Alestra.png; sourceTree = "<group>"; };
+		3BCEB99C1FD8C6F400A7D858 /* UNIVA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UNIVA.png; path = Logos/UNIVA.png; sourceTree = "<group>"; };
+		3BCEB99D1FD8C6F400A7D858 /* Alstom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alstom.png; path = Logos/Alstom.png; sourceTree = "<group>"; };
+		3BCEB99E1FD8C6F400A7D858 /* Hemac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hemac.png; path = Logos/Hemac.png; sourceTree = "<group>"; };
+		3BCEB99F1FD8C6F400A7D858 /* Intkno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Intkno.png; path = Logos/Intkno.png; sourceTree = "<group>"; };
+		3BCEB9A01FD8C6F400A7D858 /* InnoHub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InnoHub.png; path = Logos/InnoHub.png; sourceTree = "<group>"; };
+		3BCEB9A11FD8C6F500A7D858 /* Infineon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Infineon.png; path = Logos/Infineon.png; sourceTree = "<group>"; };
+		3BCEB9A21FD8C6F500A7D858 /* Dassault System.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dassault System.png"; path = "Logos/Dassault System.png"; sourceTree = "<group>"; };
+		3BCEB9A31FD8C6F500A7D858 /* GOPAC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GOPAC.png; path = Logos/GOPAC.png; sourceTree = "<group>"; };
+		3BCEB9A41FD8C6F500A7D858 /* CINVESTAV.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = CINVESTAV.gif; path = Logos/CINVESTAV.gif; sourceTree = "<group>"; };
+		3BCEB9A51FD8C6F500A7D858 /* CUTonala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CUTonala.jpg; path = Logos/CUTonala.jpg; sourceTree = "<group>"; };
 		7EA4772E1FD1229200B9005D /* ComponentsDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentsDetails.h; sourceTree = "<group>"; };
 		7EA4772F1FD1229200B9005D /* ComponentsDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentsDetails.m; sourceTree = "<group>"; };
 		D15DF48D1FCF9DE600AA9E37 /* TD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +323,89 @@
 		D17074F21FCFA5ED0072459A /* Img */ = {
 			isa = PBXGroup;
 			children = (
+				3BCEB9891FD8C6F200A7D858 /* ACCENTURE.png */,
+				3BCEB99B1FD8C6F400A7D858 /* Alestra.png */,
+				3BCEB99D1FD8C6F400A7D858 /* Alstom.png */,
+				3BCEB96C1FD8C6EF00A7D858 /* AMDOCS.png */,
+				3BCEB9951FD8C6F300A7D858 /* AMEXCAP.png */,
+				3BCEB95F1FD8C6EE00A7D858 /* Ayuntamiento.png */,
+				3BCEB95C1FD8C6ED00A7D858 /* BBVA_Bancomer.png */,
+				3BCEB9841FD8C6F100A7D858 /* BOSCH.png */,
+				3BCEB9791FD8C6F000A7D858 /* CANIETI.png */,
+				3BCEB97A1FD8C6F000A7D858 /* ccd.png */,
+				3BCEB9831FD8C6F100A7D858 /* CIDE.png */,
+				3BCEB9921FD8C6F300A7D858 /* CIIOT.jpg */,
+				3BCEB9A41FD8C6F500A7D858 /* CINVESTAV.gif */,
+				3BCEB9861FD8C6F100A7D858 /* CISCO.png */,
+				3BCEB97B1FD8C6F000A7D858 /* Citelum.gif */,
+				3BCEB98F1FD8C6F200A7D858 /* City Banamex.png */,
+				3BCEB95E1FD8C6EE00A7D858 /* COGNIZANT.png */,
+				3BCEB9641FD8C6EE00A7D858 /* ConsuladoCND.png */,
+				3BCEB96D1FD8C6EF00A7D858 /* ConsuladoUSA.png */,
+				3BCEB9941FD8C6F300A7D858 /* CONTINENTAL.png */,
+				3BCEB95D1FD8C6ED00A7D858 /* cucea.png */,
+				3BCEB96E1FD8C6EF00A7D858 /* CUCEI.png */,
+				3BCEB9A51FD8C6F500A7D858 /* CUTonala.jpg */,
+				3BCEB9A21FD8C6F500A7D858 /* Dassault System.png */,
+				3BCEB95B1FD8C6ED00A7D858 /* DELL.png */,
+				3BCEB9621FD8C6EE00A7D858 /* DELOITTE.png */,
+				3BCEB9971FD8C6F300A7D858 /* DXC.png */,
+				3BCEB96F1FD8C6EF00A7D858 /* Egutz.jpg */,
+				3BCEB98D1FD8C6F200A7D858 /* Engie.png */,
+				3BCEB9761FD8C6F000A7D858 /* EVOLUTEL.png */,
+				3BCEB9731FD8C6EF00A7D858 /* Flex.png */,
+				3BCEB9811FD8C6F100A7D858 /* GARTNER.png */,
+				3BCEB9A31FD8C6F500A7D858 /* GOPAC.png */,
+				3BCEB9741FD8C6F000A7D858 /* Hackers and Founders.png */,
+				3BCEB97C1FD8C6F000A7D858 /* HCL.png */,
+				3BCEB99E1FD8C6F400A7D858 /* Hemac.png */,
+				3BCEB96B1FD8C6EF00A7D858 /* HPE.png */,
+				3BCEB9611FD8C6EE00A7D858 /* IBM.png */,
+				3BCEB9781FD8C6F000A7D858 /* IDC.png */,
+				3BCEB9661FD8C6EE00A7D858 /* IEEE.png */,
+				3BCEB9901FD8C6F300A7D858 /* IJALTI.png */,
+				3BCEB9871FD8C6F200A7D858 /* InComSpace.jpg */,
+				3BCEB9A11FD8C6F500A7D858 /* Infineon.png */,
+				3BCEB9A01FD8C6F400A7D858 /* InnoHub.png */,
+				3BCEB9601FD8C6EE00A7D858 /* Intel.png */,
+				3BCEB9681FD8C6EE00A7D858 /* Interlatin.png */,
+				3BCEB99F1FD8C6F400A7D858 /* Intkno.png */,
+				3BCEB98A1FD8C6F200A7D858 /* IOTNET.png */,
+				3BCEB97D1FD8C6F000A7D858 /* ITESM.png */,
+				3BCEB9671FD8C6EE00A7D858 /* ITESO.png */,
+				3BCEB9721FD8C6EF00A7D858 /* Jabil.png */,
+				3BCEB97E1FD8C6F100A7D858 /* JALTEC.png */,
+				3BCEB9551FD8C6ED00A7D858 /* LuxSoft.png */,
+				3BCEB9691FD8C6EE00A7D858 /* Meetroopers.png */,
+				3BCEB9751FD8C6F000A7D858 /* Megacable.png */,
+				3BCEB99A1FD8C6F400A7D858 /* Microsoft.png */,
+				3BCEB9521FD8C6EC00A7D858 /* Modus_Link.png */,
+				3BCEB9651FD8C6EE00A7D858 /* NXP.png */,
+				3BCEB9801FD8C6F100A7D858 /* Ooyala.jpg */,
+				3BCEB9701FD8C6EF00A7D858 /* OpenDataSoft.png */,
+				3BCEB9571FD8C6ED00A7D858 /* ORACLE.png */,
+				3BCEB9591FD8C6ED00A7D858 /* Persistent.png */,
+				3BCEB9881FD8C6F200A7D858 /* Sanmina.png */,
+				3BCEB9911FD8C6F300A7D858 /* Santander.png */,
+				3BCEB9981FD8C6F300A7D858 /* Schneider_Electric.png */,
+				3BCEB9821FD8C6F100A7D858 /* SICYT.jpg */,
+				3BCEB9631FD8C6EE00A7D858 /* Siemens.png */,
+				3BCEB9531FD8C6ED00A7D858 /* SOFTTEK.png */,
+				3BCEB9771FD8C6F000A7D858 /* startip.png */,
+				3BCEB9711FD8C6EF00A7D858 /* STMicro.png */,
+				3BCEB9541FD8C6ED00A7D858 /* Svitla.png */,
+				3BCEB9851FD8C6F100A7D858 /* TEC Monte.png */,
+				3BCEB9581FD8C6ED00A7D858 /* Telcel.png */,
+				3BCEB9561FD8C6ED00A7D858 /* Telefonica.png */,
+				3BCEB97F1FD8C6F100A7D858 /* Telmex.png */,
+				3BCEB98E1FD8C6F200A7D858 /* THALES.png */,
+				3BCEB9931FD8C6F300A7D858 /* UAG.png */,
+				3BCEB96A1FD8C6EF00A7D858 /* UMG.jpg */,
+				3BCEB99C1FD8C6F400A7D858 /* UNIVA.png */,
+				3BCEB98B1FD8C6F200A7D858 /* UP.png */,
+				3BCEB9961FD8C6F300A7D858 /* Videns.png */,
+				3BCEB98C1FD8C6F200A7D858 /* Volteo.jpg */,
+				3BCEB9991FD8C6F400A7D858 /* WIZELINE.png */,
 				2CB0B16D1FD4F50700027E23 /* bigdata.jpg */,
 				2CB0B16E1FD4F50700027E23 /* drones.png */,
 				2CB0B16F1FD4F50700027E23 /* impresion3d.jpg */,
@@ -226,18 +475,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCEB9D31FD8C6F500A7D858 /* Telmex.png in Resources */,
+				3BCEB9C91FD8C6F500A7D858 /* Megacable.png in Resources */,
 				D15DF4A01FCF9DE600AA9E37 /* LaunchScreen.storyboard in Resources */,
+				3BCEB9B51FD8C6F500A7D858 /* IBM.png in Resources */,
+				3BCEB9F01FD8C6F500A7D858 /* UNIVA.png in Resources */,
+				3BCEB9BA1FD8C6F500A7D858 /* IEEE.png in Resources */,
+				3BCEB9C61FD8C6F500A7D858 /* Jabil.png in Resources */,
+				3BCEB9B81FD8C6F500A7D858 /* ConsuladoCND.png in Resources */,
+				3BCEB9F81FD8C6F500A7D858 /* CINVESTAV.gif in Resources */,
 				3B96FC4E1FD658F30035FCF8 /* participantsCellComponent.xib in Resources */,
+				3BCEB9F41FD8C6F500A7D858 /* InnoHub.png in Resources */,
+				3BCEB9EB1FD8C6F500A7D858 /* DXC.png in Resources */,
+				3BCEB9B31FD8C6F500A7D858 /* Ayuntamiento.png in Resources */,
+				3BCEB9DA1FD8C6F500A7D858 /* CISCO.png in Resources */,
+				3BCEB9C41FD8C6F500A7D858 /* OpenDataSoft.png in Resources */,
+				3BCEB9E11FD8C6F500A7D858 /* Engie.png in Resources */,
+				3BCEB9AD1FD8C6F500A7D858 /* Persistent.png in Resources */,
 				2CB0B1751FD4F50700027E23 /* impresion3d.jpg in Resources */,
+				3BCEB9DD1FD8C6F500A7D858 /* ACCENTURE.png in Resources */,
+				3BCEB9B41FD8C6F500A7D858 /* Intel.png in Resources */,
+				3BCEB9D61FD8C6F500A7D858 /* SICYT.jpg in Resources */,
+				3BCEB9B71FD8C6F500A7D858 /* Siemens.png in Resources */,
+				3BCEB9F11FD8C6F500A7D858 /* Alstom.png in Resources */,
+				3BCEB9DE1FD8C6F500A7D858 /* IOTNET.png in Resources */,
+				3BCEB9AA1FD8C6F500A7D858 /* Telefonica.png in Resources */,
+				3BCEB9C81FD8C6F500A7D858 /* Hackers and Founders.png in Resources */,
+				3BCEB9C11FD8C6F500A7D858 /* ConsuladoUSA.png in Resources */,
+				3BCEB9A91FD8C6F500A7D858 /* LuxSoft.png in Resources */,
 				D17074FD1FCFA61C0072459A /* Artificial-Intelligence.jpg in Resources */,
+				3BCEB9CD1FD8C6F500A7D858 /* CANIETI.png in Resources */,
+				3BCEB9C01FD8C6F500A7D858 /* AMDOCS.png in Resources */,
+				3BCEB9DC1FD8C6F500A7D858 /* Sanmina.png in Resources */,
+				3BCEB9BB1FD8C6F500A7D858 /* ITESO.png in Resources */,
+				3BCEB9F31FD8C6F500A7D858 /* Intkno.png in Resources */,
+				3BCEB9A71FD8C6F500A7D858 /* SOFTTEK.png in Resources */,
 				2CB0B1721FD4F50700027E23 /* vehiculosautonomos.jpg in Resources */,
+				3BCEB9DF1FD8C6F500A7D858 /* UP.png in Resources */,
+				3BCEB9F21FD8C6F500A7D858 /* Hemac.png in Resources */,
+				3BCEB9AF1FD8C6F500A7D858 /* DELL.png in Resources */,
+				3BCEB9B91FD8C6F500A7D858 /* NXP.png in Resources */,
+				3BCEB9CB1FD8C6F500A7D858 /* startip.png in Resources */,
 				D15DF4B91FCFA46900AA9E37 /* cellComponents.xib in Resources */,
+				3BCEB9F71FD8C6F500A7D858 /* GOPAC.png in Resources */,
+				3BCEB9EC1FD8C6F500A7D858 /* Schneider_Electric.png in Resources */,
+				3BCEB9AC1FD8C6F500A7D858 /* Telcel.png in Resources */,
 				D15DF49D1FCF9DE600AA9E37 /* Assets.xcassets in Resources */,
+				3BCEB9C21FD8C6F500A7D858 /* CUCEI.png in Resources */,
+				3BCEB9D21FD8C6F500A7D858 /* JALTEC.png in Resources */,
+				3BCEB9D51FD8C6F500A7D858 /* GARTNER.png in Resources */,
+				3BCEB9F91FD8C6F500A7D858 /* CUTonala.jpg in Resources */,
 				2CB0B1711FD4F50700027E23 /* redessociales.jpg in Resources */,
+				3BCEB9BF1FD8C6F500A7D858 /* HPE.png in Resources */,
+				3BCEB9BE1FD8C6F500A7D858 /* UMG.jpg in Resources */,
+				3BCEB9EF1FD8C6F500A7D858 /* Alestra.png in Resources */,
+				3BCEB9ED1FD8C6F500A7D858 /* WIZELINE.png in Resources */,
+				3BCEB9CC1FD8C6F500A7D858 /* IDC.png in Resources */,
+				3BCEB9E91FD8C6F500A7D858 /* AMEXCAP.png in Resources */,
+				3BCEB9CA1FD8C6F500A7D858 /* EVOLUTEL.png in Resources */,
+				3BCEB9CE1FD8C6F500A7D858 /* ccd.png in Resources */,
+				3BCEB9F61FD8C6F500A7D858 /* Dassault System.png in Resources */,
+				3BCEB9BD1FD8C6F500A7D858 /* Meetroopers.png in Resources */,
+				3BCEB9D11FD8C6F500A7D858 /* ITESM.png in Resources */,
+				3BCEB9D01FD8C6F500A7D858 /* HCL.png in Resources */,
+				3BCEB9E21FD8C6F500A7D858 /* THALES.png in Resources */,
+				3BCEB9E61FD8C6F500A7D858 /* CIIOT.jpg in Resources */,
+				3BCEB9AB1FD8C6F500A7D858 /* ORACLE.png in Resources */,
+				3BCEB9E51FD8C6F500A7D858 /* Santander.png in Resources */,
+				3BCEB9E01FD8C6F500A7D858 /* Volteo.jpg in Resources */,
+				3BCEB9B21FD8C6F500A7D858 /* COGNIZANT.png in Resources */,
 				2CB0B1731FD4F50700027E23 /* bigdata.jpg in Resources */,
+				3BCEB9C71FD8C6F500A7D858 /* Flex.png in Resources */,
+				3BCEB9CF1FD8C6F500A7D858 /* Citelum.gif in Resources */,
+				3BCEB9BC1FD8C6F500A7D858 /* Interlatin.png in Resources */,
+				3BCEB9C31FD8C6F500A7D858 /* Egutz.jpg in Resources */,
+				3BCEB9EE1FD8C6F500A7D858 /* Microsoft.png in Resources */,
+				3BCEB9C51FD8C6F500A7D858 /* STMicro.png in Resources */,
+				3BCEB9D71FD8C6F500A7D858 /* CIDE.png in Resources */,
+				3BCEB9B61FD8C6F500A7D858 /* DELOITTE.png in Resources */,
 				2CB0B1741FD4F50700027E23 /* drones.png in Resources */,
+				3BCEB9D41FD8C6F500A7D858 /* Ooyala.jpg in Resources */,
 				2CB0B1761FD4F50700027E23 /* IoT.jpg in Resources */,
+				3BCEB9B01FD8C6F500A7D858 /* BBVA_Bancomer.png in Resources */,
+				3BCEB9E31FD8C6F500A7D858 /* City Banamex.png in Resources */,
+				3BCEB9E71FD8C6F500A7D858 /* UAG.png in Resources */,
+				3BCEB9F51FD8C6F500A7D858 /* Infineon.png in Resources */,
 				D15DF4981FCF9DE600AA9E37 /* Main.storyboard in Resources */,
+				3BCEB9B11FD8C6F500A7D858 /* cucea.png in Resources */,
+				3BCEB9A61FD8C6F500A7D858 /* Modus_Link.png in Resources */,
+				3BCEB9E41FD8C6F500A7D858 /* IJALTI.png in Resources */,
+				3BCEB9D81FD8C6F500A7D858 /* BOSCH.png in Resources */,
+				3BCEB9A81FD8C6F500A7D858 /* Svitla.png in Resources */,
+				3BCEB9D91FD8C6F500A7D858 /* TEC Monte.png in Resources */,
+				3BCEB9DB1FD8C6F500A7D858 /* InComSpace.jpg in Resources */,
+				3BCEB9EA1FD8C6F500A7D858 /* Videns.png in Resources */,
+				3BCEB9E81FD8C6F500A7D858 /* CONTINENTAL.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
