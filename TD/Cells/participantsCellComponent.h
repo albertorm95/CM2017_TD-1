@@ -10,6 +10,8 @@
 
 @interface participantsCellComponent : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *participantName;
-@property (weak, nonatomic) IBOutlet UIView *backgroundColor;
+@property (weak, nonatomic) IBOutlet UIImageView *imgLogo;
+@property (weak, nonatomic) IBOutlet UIImageView *viewImage;
+@property (weak, nonatomic) IBOutlet UIView *viewColor;
 
 @end

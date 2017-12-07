@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imgDetails;
 @property (weak, nonatomic) IBOutlet UILabel *nameDetails;
 @property (weak, nonatomic) IBOutlet UITextView *decriptionDetails;
+@property (weak, nonatomic) IBOutlet UIView *backgroundDetails;
 
 @property NSString *imagen;
 @property NSString *nombre;

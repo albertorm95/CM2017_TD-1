@@ -16,6 +16,7 @@
 @property NSMutableArray *ArrayDescription;
 @property NSMutableArray *ArrayImagenes;
 @property NSMutableArray *ArrayURL;
+@property NSMutableArray *ArrayColors;
 
 @property NSString *nombres;
 @property NSString *descripcion;
@@ -39,6 +40,93 @@
 }
 
 - (void)initController {
+    
+    self.ArrayColors = [[NSMutableArray alloc] initWithObjects:
+                          @"00a8f0",
+                          @"f00000",
+                          @"f01878",
+                          @"007830",
+                          @"781818",
+                          @"004890",
+                          @"f01818",
+                          @"48a890",
+                          @"a8c060",
+                          @"00a890",
+                          @"00a8d8",
+                          @"f06030",
+                          @"003060",
+                          @"000000",
+                          @"60a848",
+                          @"f04830",
+                          @"006090",
+                          @"f07818",
+                          @"004890",
+                          @"0078c0",
+                          @"304890",
+                          @"000000",
+                          @"f0f0f0",
+                          @"00a8ff",
+                          @"90c018",
+                          @"30a8f0",
+                          @"006090",
+                          @"18d8a8",
+                          @"304890",
+                          @"90a8c0",
+                          @"783018",
+                          @"0060a8",
+                          @"00a890",
+                          @"1878c0",
+                          @"001830",
+                          @"001890",
+                          @"486060",
+                          @"3078a8",
+                          @"0030a8",
+                          @"001830",
+                          @"480000",
+                          @"c0a878",
+                          @"f01848",
+                          @"f0f0f0",
+                          @"0078c0",
+                          @"f00048",
+                          @"004878",
+                          @"603090",
+                          @"004890",
+                          @"004878",
+                          @"009060",
+                          @"306078",
+                          @"004878",
+                          @"483018",
+                          @"0060a8",
+                          @"ffc000",
+                          @"607878",
+                          @"c0d818",
+                          @"484860",
+                          @"186090",
+                          @"f00000",
+                          @"1878a8",
+                          @"f03048",
+                          @"ff0000",
+                          @"009030",
+                          @"c0c0c0",
+                          @"009090",
+                          @"78c030",
+                          @"0090d8",
+                          @"F07330",
+                          @"183060",
+                          @"183030",
+                          @"1890c0",
+                          @"181860",
+                          @"c06060",
+                          @"f06000",
+                          @"181830",
+                          @"480000",
+                          @"d83018",
+                          @"f09018",
+                          @"f0a860",
+                          @"f0c060",
+                          @"ff1818",
+                          @"d83030", nil
+                           ];
     
     self.ArrayDescription = [[NSMutableArray alloc] initWithObjects:@"Alestra es una marca de soluciones empresariales y de gobierno de Axtel; provee las más innovadoras Tecnologías de Información y Comunicación en México para habilitar a las organizaciones a ser más productivas.",
                              @"Alstom es una multinacional francesa que opera en todo el mundo en mercados de transporte ferroviario activa en los sectores del transporte de pasajeros señalización y locomotoras con productos que incluyen los trenes de alta velocidad AGV TGV Eurostar y Pendolino además de suburbanos regionales y metropolitanos. trenes y tranvías Citadis.",
@@ -138,7 +226,7 @@
                           @"CINVESTAV.gif",
                           @"CISCO.png",
                           @"Citelum.gif",
-                          @"City_Banamex.png",
+                          @"City Banamex.png",
                           @"ccd.png",
                           @"COGNIZANT.png",
                           @"ConsuladoCND.png",
@@ -156,7 +244,7 @@
                           @"startip.png",
                           @"GOPAC.png",
                           @"Hemac.png",
-                          @"Hackers_and_Founders.png",
+                          @"Hackers and Founders.png",
                           @"HCL.png",
                           @"HPE.png",
                           @"IBM.png",
@@ -396,7 +484,7 @@
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 85;
+    return 80;
     //return 64    ;
 }
 //-------------------------------------------------------------------------------
@@ -411,8 +499,9 @@
     //Fill cell with info from arrays
     
     cell.participantName.text = self.ArrayNames[indexPath.row];
-    
-    
+    cell.imgLogo.image = [UIImage imageNamed:self.ArrayImagenes[indexPath.row]];
+    UIColor *color =[self colorWithHexString:self.ArrayColors[indexPath.row]];
+    cell.viewColor.backgroundColor = color;
     return cell;
 }
 //-------------------------------------------------------------------------------
@@ -422,6 +511,8 @@
     self.descripcion = self.ArrayDescription[indexPath.row];
     self.cellimagenes = self.ArrayImagenes[indexPath.row];
     self.URL = self.ArrayURL[indexPath.row];
+    
+    
     [self performSegueWithIdentifier:@"segueComponentsToDetails" sender:self];
 }
 
@@ -434,6 +525,40 @@
     cd.url = _URL;
     cd.descripcion = _descripcion;
 }
-
+-(UIColor*)colorWithHexString:(NSString*)hex
+{
+    NSString *cString = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    
+    // String should be 6 or 8 characters
+    if ([cString length] < 6) return [UIColor grayColor];
+    
+    // strip 0X if it appears
+    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
+    
+    if ([cString length] != 6) return  [UIColor grayColor];
+    
+    // Separate into r, g, b substrings
+    NSRange range;
+    range.location = 0;
+    range.length = 2;
+    NSString *rString = [cString substringWithRange:range];
+    
+    range.location = 2;
+    NSString *gString = [cString substringWithRange:range];
+    
+    range.location = 4;
+    NSString *bString = [cString substringWithRange:range];
+    
+    // Scan values
+    unsigned int r, g, b;
+    [[NSScanner scannerWithString:rString] scanHexInt:&r];
+    [[NSScanner scannerWithString:gString] scanHexInt:&g];
+    [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    
+    return [UIColor colorWithRed:((float) r / 255.0f)
+                           green:((float) g / 255.0f)
+                            blue:((float) b / 255.0f)
+                           alpha:1.0f];
+}
 @end
 
